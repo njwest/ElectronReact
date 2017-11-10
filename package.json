@@ -1,0 +1,21 @@
+{
+  "name": "electron-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "electron": "electron .",
+    "eject": "react-scripts eject"
+  },
+  "main": "./electron-starter.js",
+  "devDependencies": {
+    "electron": "^1.7.9"
+  }
+}
